@@ -6,6 +6,7 @@
 
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" type="text/css" href=style/style2.css>
+      <link rel="stylesheet" href="https://cdnjs.cloudlfare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.in.css">
   </head>
   <body>
   <div class="top-box">
@@ -32,15 +33,17 @@
   </section>
  </div>
  <div class="sign-up">
-    <h6> Sign Up Now! </h6> 
+    <h6> 
+    <a href="signupnow.html" target="_blank">Sign Up Now!</a>
+    </h6> 
  </div>
 <div class="footnote">
     <h7> Relaxr </h7>
 
     <footer>
       <ul>
-       <li> <a href= "https://twitter.com" class="fa fa-twitter"></a> </li>  
-       <li> <a href= "https://www.facebook.com/christian.cleveland.3" class="fa fa-facebook"></a></li>
+       <li> <a href= "https://twitter.com" class="fa fa-twiiter"></a> </li>  
+       <li> <a href= "https://www.facebook.com" class="fa fa-twitter"></a></li>
       </ul>
 
     <h8> Copyright 2015. Relaxr. </h8>

@@ -46,7 +46,15 @@
   padding: 25px;
   margin: 0px;
 }
-a:link, a:visited{
+a:link{
+  background-color: #f44336;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+} 
+a:visited{
   background-color: #f44336;
   color: black;
   padding: 14px 25px;
@@ -120,32 +128,17 @@ h6{
   color: white;
 }
 
-h7{
-  font-weight: bold;
-  font-size: 24px;
-  text-align: center;
-  color: white;
-}
-h8{
-  font-weight: bold;
-  font-size: 9px;
-  text-align: center;
-  color: white;
-}
 .fa{
-padding:20px;
+padding: 20px;
 font-size: 30px;
-width: 30px;
+width: 50px;
 text-align: center;
 text-decoration: none;
-margin: 5px 2px;
 color: white;
 border-radius: 50%;
 }
-.fa-hover{
-opacity: 0.7;
-color: white;
-}
+
+/* facebook*/
 .fa-facebook{
 opacity: 1.0;
 color: white;
