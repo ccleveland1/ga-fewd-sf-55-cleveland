@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title> FEWD Assignment #3: CSS Fundamentals </title>
+  <meta description="Relaxr">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href=style/style2.css>
+      <link rel="stylesheet" href="https://cdnjs.cloudlfare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.in.css">
+  </head>
+  <body>
+  <div class="top-box">
+    <h1> Relaxr </h1>
+    <h2> Get piece of mind with a single tap </h2>
+    <h3>    
+     <a href= "getitnow.html" target="_blank">Get It Now</a> 
+    </h3>
+  </div>
+  <div class="middle-box">
+    <h4> Benefits </h4>
+      <p> The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be. </p>
+        <ul>
+          <li> Schedule meetings for you </li>
+          <li> Excel automation to complete your work for you </li>
+          <li> Responds to emails on your behalf </li>
+          <li> Does all your work for you with our revolutionary AI technology </li>
+        </ul>
+  </div>
+  <div class="bottombox">
+  <section>
+    <h5> "Relaxr changed my life. I've been able to travel the world, spend limited time working and my boss keeps thanking me for crusing work." </h5>
+      <p> -Amanda, Intuit </p>
+  </section>
+ </div>
+ <div class="sign-up">
+    <h6> 
+    <a href="signupnow.html" target="_blank">Sign Up Now!</a>
+    </h6> 
+ </div>
+<div class="footnote">
+    <h7> Relaxr </h7>
+
+    <footer>
+      <ul>
+       <li> <a href= "https://twitter.com" class="fa fa-twiiter"></a> </li>  
+       <li> <a href= "https://www.facebook.com" class="fa fa-twitter"></a></li>
+      </ul>
+
+    <h8> Copyright 2015. Relaxr. </h8>
+ </footer>
+    </footer>
+  </body>
+</html>
