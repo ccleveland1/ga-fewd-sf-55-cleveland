@@ -1,0 +1,4 @@
+body{
+  background: header_bg.jpg;
+  background-size: cover;
+}

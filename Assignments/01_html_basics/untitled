@@ -1,0 +1,9 @@
+
+// Number of spaces a tab is considered equal to
+"tab_size": 2,
+// Insert spaces when tab is pressed
+"translate_tabs_to_spaces": true,
+// Force indentation rules instead of detecting pre-existing ones
+"detect_indentation": false,
+// Draw all white space and invisible characters
+"draw_white_space": "all",

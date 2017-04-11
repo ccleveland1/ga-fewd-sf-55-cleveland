@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title> Research Homework </title>
+  </head>
+  <header>
+    <h1> Christian Cleveland </h1>
+  </header>
+
+  <body>
+
+    <h2> Define semantic markup.</h2>
+      <p> The word semantic means to use a word in alignment with its true meaning. To not use the word out of place. Most of the HTML tags that I have already been taught have a semantic meaning such as how <h1> is the top most portion of the page and represeents the "first header" and how the body represents the literal body of the page. These all have a semantic meaning.
+      According to html.com, a semantic markup requires that HTML elements be used according to their intended purpose. Semantic markup requires the seperation of content and presentation.
+      </p>
+
+
+    <h3> How do you decide between using <aside>, <article>, <section>, or <div> elements? </h3>
+      <ul>
+        <li> Aside </li>
+          <p> The <aside> element is similiar to a sidebar. It defines content aside form the content it is placed in. And therefore has a semantic meaning.
+          </p>
+        <li> Article </li>
+          <p> The <article> element specifies independed, self-contained content. Examples of when to use <article> tag is in a Forum post, Blog post and Newspaper article. "An article should make sense on its own, and it should be possible to read it independently from the rest of the web site."(w3schools.com)
+          </p>
+        <li> Section </li>
+          <p> HTML5 published a new list of semantic elements and section is now defined as a semantic element. It literally defines a section in a document. Like most semantic elements, its name tends to speak for itself.
+          </p>
+        <li> div </li>
+          <p> The elemtn <div> and <span> have no semantic value. They mean nothing. Developers would just use that to name an element that they did not know what the name was or to contain random pieces of information. "These non-semantic elements tell us nothing about its content."(w3schools.com)
+
+
+    <h4> What is the difference between header and head.</h4>
+        <p> The header tag is a semantic container used to designate contents that is introductory or navigational in nature. For the index we created in class, the "about me" and "portfolio" and <nav> were all contained in the header. The header is shown on the actual web page. The head contains all the meta data and it contains the <style>. Nothing within the head was visible on the webpage.
+
+
+    <h5> How should the alt attribute for img be used? What are the usability/SEO implications?</h5>
+      <p> the alt attribute is developed for visually impaired users and should state a description of the image that is being used so that if a visually impaired individual is unable to view the depicted image, they will still understand what it is portraying based on what the alt attribute is stating. Many visually impaired users have a voice that is produced from the computer reading them the information and content.
+      </p>
+
+
+    <h6> What are the id and class attributes used for? How are they different?</h6>
+      <p> The id and class attributes are used most in CSS or styling. The id selector is used on one specific element and it allows you to style that specific element a certain way without changing any other elements. While the class selector allows you to style several elements at the same time with the same class.
+
+      <!-- use a class when you want to consistently style multipe elements throughout the page/site. Use the ID when you have a single element on the page that will take the style.-->
+      
+      </p>
+
+  </body>
+</html>
+
+
