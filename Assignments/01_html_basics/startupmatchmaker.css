@@ -1,0 +1,40 @@
+
+.top-box{
+    background-color: black;
+    background-size: cover;
+}
+.logo{
+    color: yellow;
+}
+.menu{
+    color: white;
+    display: inline-block;
+    font-size: 24px;
+    float: right;
+    position: relative;
+    list-style-type: none;
+
+}
+ul{
+    list-style-type: none;
+    display: inline-block; 
+}
+aside{
+    float: left;
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+    border-right: 1px solid grey; 
+}
+main{
+    width: 33%;
+    height: 200px;
+    float: left;
+    border-right: 1px solid grey;
+}
+section{
+  
+    width: 33%;
+    height: 200px;
+    float: right;
+}
