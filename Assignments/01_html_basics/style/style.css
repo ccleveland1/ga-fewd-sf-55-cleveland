@@ -28,6 +28,16 @@ color: white;
 background: #125688
 color: white;
 } 
+.top-box{
+  background: black;
+  background-size: cover;
+  background-repeat:;
+  width: 800px;
+  height: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 0px; n
+}
 h1{
 color: white;
 font-weight: bold;

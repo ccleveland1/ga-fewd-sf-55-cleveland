@@ -1,0 +1,40 @@
+body{
+  margin: auto;
+
+}
+ header{
+  background: url("https://cdn.shutterstock.com/shutterstock/videos/10684853/thumb/1.jpg");
+  background-size: cover;
+  padding: 25px 0;
+  overflow: hidden;
+}
+
+}
+footer{
+  
+}
+aside{
+  height: 200px;
+  max-width:50%;
+  float:right;
+
+}
+section{
+  height: 200px;
+  max-width:50%;
+  float:left;
+}
+aside img{
+  width: 100%;
+}
+section img{
+  width: 100%;
+}
+h1{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+p{
+  font-size: 25px;
+}

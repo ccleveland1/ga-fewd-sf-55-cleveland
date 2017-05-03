@@ -9,14 +9,12 @@
 
   <link rel="stylesheet" href="style/reset.css">
   <link rel="stylesheet" href="style/style3.css">
-  <link rel="stylesheet" href="images/surfrainbow.png"
-</head>
+  </head>
 <body>
-
   <div class=top-box>
     <header>
-      <div class="container">
-          <h1 class="logo">Cleveland Consultants</h1>
+      <div class"container">
+          <h1 class="logo">Relaxr</h1>
           <div class="menu">
           <nav>
           <ul>
@@ -34,30 +32,15 @@
   <section id="posts">
     <div class="container">
       <section id="posts">
-    <span id="sidebar">
-      <h4> Categories </h4>
-        <ul class="side-information">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Team Members</a></li>
-          <li><a href="#">How to's</a></li>
-          <li><a href="#">Best of</a></li>
-          <li><a href="#">Business tips</a></li>
-        </ul>
-      <h4>About Relaxr</h4>
-        <p class="side-information2"> Proin sed justo vel sapien varius acutor. Proin scelerisque massa at luctus tincidnt. Fusce porttitor, sapien sed tincidunt fringilla.  <br>
-        <a href="#">Learn More</a></p>
-        <img src="images/ad-unit.png" alt="Ad Unit"> 
-    </span>
         <article class="post">
-          <h2>How surfing and the culture behind it has shaped and influenced my life.</h2>
-          <img src="http://cdn1.sbnation.com/assets/4161097/surfrainbow.jpg">
+          <h2>How I implemented Relaxr in 2 weeks and changed my life.</h2>
+          <img src="images/blog_photo1.jpg">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senesctus et netur et malesuada fames ac turpis egestas. Mauris ut vulputate nisl. Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci portitor ac sapien a, rutrum portitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus auge a pellentesque tristique. Proin suscipit in dui ut convallis. </p>
             <!--Add the read more option here--> 
-
         </article>
         <article class="post">
          <h3>I traveled across the globe thanks to Relaxr's Excel aumation</h3>
-         <img src="http://img.wennermedia.com/article-leads-horizontal/mj-618_348_john-john-florence.jpg" alt="Canoes">
+         <img src="images/blog_photo2.jpg" alt="Canoes">
          <p>Lorem ipsum dolor sit amet, consectetur adipscing elit. Fusce varius augue metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut vulputate nisl. Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum portitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tirstique. Proin suscipit in dui ut convallis.</p>
          <!--Add the read more option here--> 
           <p class="readmore"><a href="">Read more</a></p>
@@ -66,6 +49,20 @@
     
   </section>
 
+    <aside id="sidebar">
+      <h4> Categories </h4>
+        <ul class="side-information">
+          <li><a href="#">Success stories</a></li>
+          <li><a href="#">Stats</a></li>
+          <li><a href="#">How to's</a></li>
+          <li><a href="#">Best of</a></li>
+          <li><a href="#">Business tips</a></li>
+        </ul>
+      <h5>About Relaxr</h5>
+        <p> Proin sed justo vel sapien varius acutor. Proin scelerisque massa at luctus tincidnt. Fusce porttitor, sapien sed tincidunt fringilla.  <br>
+        <a href="#">Learn More</a></p>
+        <img src="images/ad-unit.png" alt="Ad Unit"> 
+    </aside>
   </div>
 
    <!-- sign up now -->
