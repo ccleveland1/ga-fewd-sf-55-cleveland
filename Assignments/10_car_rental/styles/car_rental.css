@@ -1,0 +1,18 @@
+body{
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1 {
+  line-height: 1.25;
+  color: white;
+}
+
+header{
+  background: url("https://cdn.shutterstock.com/shutterstock/videos/10684853/thumb/1.jpg");
+  background-size: cover;
+  padding: 25px 0;
+  overflow: hidden;
+}

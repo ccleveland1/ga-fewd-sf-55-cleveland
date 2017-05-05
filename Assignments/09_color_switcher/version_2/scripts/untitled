@@ -1,0 +1,32 @@
+var currentYear = 2017;
+var name;
+var yob;
+var mood;
+
+name = prompt('Please Enter Your Full Name');
+
+yob = prompt('Please Enter Your Year of Birth');
+
+mood = prompt('Are you happy or mad');
+
+
+if(mood == 'mad') {
+  console.log('Sorry we do not let mad people rent our cars!');
+} 
+if(mood == 'happy') {
+  console.log('Since You are happy you can rent our cars!');
+}
+
+console.log('Hello ' + name);
+
+var age = currentYear - yob;
+
+console.log(age);
+
+if(age >= 25) {
+  console.log('Happy Rental')
+} else if(age < 25 && age >= 21) {
+  console.log('Additional Charge')
+} else {
+  console.log('Sorry, you are not eligible for car rental.')
+}
