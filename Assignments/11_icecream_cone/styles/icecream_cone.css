@@ -1,0 +1,21 @@
+@charset "utf-8";
+.top-box{
+  font-weight: bold;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-width: 960px;
+  background: url("https://cdn.shutterstock.com/shutterstock/videos/10684853/thumb/1.jpg");
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+  font-size: 24px;
+  padding: 35px 50px;
+}
+.middle-box{
+  background: url("../images/water_texture_10_by_greeneyezz_stock.jpg");
+  background-size: cover;
+  color: white;
+  margin-top: auto;
+  height: 100%;
+}
