@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>City Background</title>
+    <meta name="description" content="Your description goes here">
+    <meta name="keywords" content="one, two, three">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/13_city-scape.css">
+  </head>
+  <body>
+    <header>
+      <h1>CitiPix</h1>
+      <p>Your Cities, Your Pix</p>
+    </header>
+    <form id="city-picker">
+      <input type="text" id="city-type" placeholder="Enter a city name…">
+      <input type="submit" value="Update" id="submit-btn">
+    </form>
+    <script src="../scripts/jquery-3.2.1.min.js"></script>
+    <script src="../scripts/13_city-scape.js"></script>
+  </body>
+</html>
