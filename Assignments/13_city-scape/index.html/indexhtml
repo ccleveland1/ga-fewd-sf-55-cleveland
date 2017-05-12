@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/13_city-scape.css">
   </head>
-  <body>
+  <body class="SF" class="NYC" class="LA" class="AUSTIN">
     <header>
       <h1>CitiPix</h1>
       <p>Your Cities, Your Pix</p>
