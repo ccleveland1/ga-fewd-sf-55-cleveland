@@ -44,6 +44,9 @@ $(document).ready(function(){
     case 'austin':
      $('body').addClass('austin');
       break;
+    case 'sydney':
+     $('body').addClass('sydney');
+      break;
     case undefined:
       alert('City is not defined');
     default:
