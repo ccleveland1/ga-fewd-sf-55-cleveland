@@ -6,104 +6,110 @@ $(document).ready(function(){
   var botPlay = 'Scissors'
   var botPlay = 'Paper'
 
+//1. implement click listeners for user play (see similar example completed in Ice Cream assignment)
+        //done
+//2. manually define the robot play for now and implement the conditional logic to assess win/tie/loss (a simple `console.log` stating the result will do for now)
+        //
+//3. log the human and robot score incrementing it with each respective win (see similar example completed in Ice Cream assignment)
+//4. implement true robot random play
 
 //add my logic in as if bots respone will be rock. 
 //dont worry about randomizaton yet
-
-
 })
 //listen for event on game options
-//if 
-  //rock is clicked
-  //run randomization
-  //print one of 3 random options
-  //if 
-    //rock vs scissors
-    //rock wins
-  //else if
-    //rock vs paper
-    //rock loses
-  //else if
+
+    //rock is clicked
+    //run randomization
+    //print one of three options
+    if(userPlay === 'Rock')
+        //if
     //rock vs rock
     //tie game
     //change score
-    if(userPlay === 'Rock')
       if(botPlay = 'Rock') {
       document.getElementbyId('').innerHTML  
       console.log('You Tied')
     } 
+      //else if
+    //rock vs paper
+    //rock loses
     else if(botPlay = 'Paper') {
       document.getElementbyId('').innerHTML  
       console.log('You Lose')
     }
+    //else if 
+    //rock vs scissors
+    //rock wins
     else if(botPlay = 'Scissors') {
       document.getElementbyId('').innerHTML
       console.log('You Win')
     }
-
+      //else if 
+    //paper is clicked
+    //run randomization
+    //print one of three options
     if(userPlay === 'Paper')
-
+      //if 
+    //paper vs rock
+    //paper wins
        if(botPlay = 'Rock') {
       document.getElementbyId('').innerHTML  
       console.log('You Win')
     } 
+      //else if
+    //paper vs paper
+    //tie game
+    //change score
     else if(botPlay = 'Paper') {
       document.getElementbyId('').innerHTML  
       console.log('You Tied')
     }
+      //else if 
+    //paper vs scissors
+    //paper loses
     else if(botPlay = 'Scissors') {
       document.getElementbyId('').innerHTML
       console.log('I Win')
     }
-
+      //else if
+    //scissors is clicked
+    //run randomization
+    //print one of three options
     if(userPlay === 'scissors')
+        //if
+      //scissors vs rock
+      //scissors loses
        if(botPlay = 'Rock') {
       document.getElementbyId('').innerHTML  
       console.log('You Lose')
     } 
+        //else if 
+      //scissors vs paper
+      //scissors wins
     else if(botPlay = 'Paper') {
       document.getElementbyId('').innerHTML  
       console.log('You Win')
     }
+       //else if
+     //scissors vs scissors
+     //tie game
     else if(botPlay = 'Scissors') {
       document.getElementbyId('').innerHTML
       console.log('You Tied')
     }
+     //change score accordingly
+
+     $('#rock').click(botPlay);
+     $('##paper').click(botPlay);
+     $('#scissors').click(botPlay);
+
+}
+
   
+ 
+ 
+    
+    
+   
+     
 
-
-
-
-
-
-//else if 
-  //paper is clicked
-  //run randomization
-  //print one of three options
-  //if 
-    //paper vs rock
-    //paper wins
-  //else if 
-    //paper vs scissors
-    //paper loses
-  //else if
-    //paper vs paper
-    //tie game
-    //change score
-
-//else if
-  //scissors is clicked
-  //run randomization
-  //print one of three options
-    //if 
-      //scissors vs paper
-      //scissors wins
-    //else if
-      //scissors vs rock
-      //scissors loses
-    //else if
-      //scissors vs scissors
-      //tie game
-      //change score
-
-  //print one of three options
