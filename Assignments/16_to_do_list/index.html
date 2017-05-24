@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TODO List</title>
+    <meta name="description" content="Site description goes here">
+    <meta name="keywords" content="keywords, go, here">
+    <link rel="stylesheet" href="styles/16_to_do_list.css">
+  </head>
+  <body>
+    <h1>ToDo</h1>
+    <form>
+      <fieldset>
+        <legend>Add To Do</legend>
+        <input id="new-todo" type="text" autofocus>
+        <button id="add-todo">Add</button>
+      </fieldset>
+      <fieldset>
+       <legend>List</legend>
+      <ol id="todos">
+        <li id ="template"><label><input type="checkbox"><span></span></label></li>
+      </ol>
+      </fieldset>
+      <button id="clear">Clear Completed</button>
+    </form>
+  <script src="scripts/jquery-3.2.1.min.js"></script>
+  <script src="scripts/16_to_do_list.js"></script>
+  </body>
+</html>
